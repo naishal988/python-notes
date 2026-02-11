@@ -58,7 +58,7 @@ print("hey",6,7,end="kuchh bhi")
 # True False is :- bool mean boolean data
 
 # list is a list of item of different different datatype
-# tuple is almost same as list but difference is , it is not changeable after created or fixed or immutable
+# tupel is almost same as list but difference is , it is not changeable after created or fixed or immutable
 
 
 # mapped data :- dic
@@ -624,6 +624,14 @@ print(str1.title())
 # *******if else******
 
 
+
+# human being
+
+# or 
+
+# human being
+
+# or 
 # conditional operator
 # <,>,<=,>=,==,!=
 
@@ -1487,13 +1495,13 @@ print(l)
 l.insert(1,889)
 print(l)
 
-so output is 
-[11,45,1,2,4,6]
-[11,899,1,2,4,6]
+# so output is 
+# [11,45,1,2,4,6]
+# [11,899,1,2,4,6]
 
 
-8)extend()
-so hum is list method se do list ko jod sakte hai for an example
+# 8)extend()
+# so hum is list method se do list ko jod sakte hai for an example
 
 
 l = [11,45,1,2,4,6]
@@ -1503,14 +1511,14 @@ l.extend(m)
 print(l)
 
 
-so output is
-[11,45,1,2,4,6]
-[11,45,1,2,4,6,900,1000,1100]
+# so output is
+# [11,45,1,2,4,6]
+# [11,45,1,2,4,6,900,1000,1100]
 
-*************concatenating two list******
+# *************concatenating two list******
 
-isme hume ye ek plus point milta hai ki hamari origianl list me ki change nai hota
-for an example:-
+# isme hume ye ek plus point milta hai ki hamari origianl list me ki change nai hota
+# for an example:-
 l = [11,45,1,2,4,6,1,1]
 print(l)
 m = [900,1000,1100]
@@ -1518,45 +1526,45 @@ k = l + m
 print(k)
 print(l)
 
-so output is
-[11,45,1,2,4,6,1,1]
-[11,45,1,2,4,6,1,1,900,1000,1100]
-[11,45,1,2,4,6,1,1]
+# so output is
+# [11,45,1,2,4,6,1,1]
+# [11,45,1,2,4,6,1,1,900,1000,1100]
+# [11,45,1,2,4,6,1,1]
 
 
-***tuples****
+# ***tuples****
 tup = (1,5,6)
 print(type(tup),tup)
 
 
-so ouput is 
-<class 'tuple'> (1,5,6)
+# so ouput is 
+# <class 'tuple'> (1,5,6)
 
-hum ese hi 1 number ka tuple banaye to wo integer hoga na ki tuple
-use tuple banane ke liye hume 
-ese banana padega
-for an example:-
+# hum ese hi 1 number ka tuple banaye to wo integer hoga na ki tuple
+# use tuple banane ke liye hume 
+# ese banana padega
+# for an example:-
 
 
 tup = (1,)
 print(type(tup),tup)
 
-so output is
-<class'tuple'>(1,)
+# so output is
+# <class'tuple'>(1,)
 
-hum comma nai lagate to integer consider karta python interpreter
+# hum comma nai lagate to integer consider karta python interpreter
 
-for an example:-
+# for an example:-
 tup = (1)
 print(type(tup),tup)
 
 
-so output is
-<class'int'>(1)
+# so output is
+# <class'int'>(1)
 
 
 
-NOTE:- TUPLE CAN'T CHANGEABLE
+# NOTE:- TUPLE CAN'T CHANGEABLE
 
 tup = (1,2,76,342,32,"green",True)
 print(type(tup),tup)
@@ -1565,14 +1573,14 @@ print(tup[1])
 print(tup[2])
 print(tup[3])
 
-so output is 
-<class'tuple'>(1,2,76,342,32,'green',True)
-1
-2
-76
-342
+# so output is 
+# <class'tuple'>(1,2,76,342,32,'green',True)
+# 1
+# 2
+# 76
+# 342
 
-**check for item:-
+# **check for item:-
 
 tup = (1,2,76,342,32,"green",True)
 print(type(tup),tup)
@@ -1583,15 +1591,15 @@ print(tup[3])
 if 342 in tup:
 	print("Yes 342 is present in this tuple")
 
-so output is 
-<class'tuple'>(1,2,76,342,32,'green',True)
-1
-2
-76
-342
-Yes 342 is present in this tuple
+# so output is 
+# <class'tuple'>(1,2,76,342,32,'green',True)
+# 1
+# 2
+# 76
+# 342
+# Yes 342 is present in this tuple
 
-tuple me bhi slicing kar sakte  hai but isme naya tuple ban jayega
+# tuple me bhi slicing kar sakte  hai but isme naya tuple ban jayega
 
 
 tup = (1,2,76,342,32,"green",True)
@@ -1600,27 +1608,27 @@ tup2 = tup[1:4]
 print(tup2)
 
 
-so output is:
-<class'tuple'>(1,2,76,342,'green',True)
-(2,76,342)
+# so output is:
+# <class'tuple'>(1,2,76,342,'green',True)
+# (2,76,342)
 
 
-NOTE:-
-tuples are immutable.
-strings are immutable.
-BUT
+# NOTE:-
+# tuples are immutable.
+# strings are immutable.
+# BUT
 
-		LIST ARE MUTABLE
+# 		LIST ARE MUTABLE
 
-so we can chnage list .
-we can't change string and tuple
+# so we can chnage list .
+# we can't change string and tuple
 
 
-****tuple methods******
-tuples are immutable , hence if you want to add , remove or change tuple items, then first you must convert the tuple to alist.
-then perform operation on that list and convert it back to tuple.
+# ****tuple methods******
+# tuples are immutable , hence if you want to add , remove or change tuple items, then first you must convert the tuple to alist.
+# then perform operation on that list and convert it back to tuple.
 
-example:-
+# example:-
 countries = ("spain","italy","india","England","germany")
 temp = list(countries)
 temp.append ("Russia")		#add item
@@ -1630,19 +1638,19 @@ countries = tuple(temp)
 print(countries)
 
 
-so output is
-('spain','italy','Finland','germany','Russia')
+# so output is
+# ('spain','italy','Finland','germany','Russia')
 
-so basically hum tuple ko change nahi kar sakte but nayi tuple bana sakte hai .
-jaise humne  uper banaya  so usme changes karne ke liye hum 3 feature ka use karenge.
+# so basically hum tuple ko change nahi kar sakte but nayi tuple bana sakte hai .
+# jaise humne  uper banaya  so usme changes karne ke liye hum 3 feature ka use karenge.
 
-add karne ke liye append ka use kiya.
-remove karne ke liye pop ka use kiya.
-change karne ke liye a[index] = "new value"
+# add karne ke liye append ka use kiya.
+# remove karne ke liye pop ka use kiya.
+# change karne ke liye a[index] = "new value"
 
 
-hum do tuple ko concatenate karege to hume tisara tuple milenaga
-for an example:-
+# hum do tuple ko concatenate karege to hume tisara tuple milenaga
+# for an example:-
 
 
 countries = ("Pakistan","Afghanistan","Bangladesh","shri lanka")
@@ -1651,47 +1659,96 @@ southeastasia = countries + countries2
 print(sounteastasia)
 
 
-so ouput is
-('Pakistan','Afghanistan','Bangladesh','shri lanka','Vietnam','India','china')
+# so ouput is
+# ('Pakistan','Afghanistan','Bangladesh','shri lanka','Vietnam','India','china')
 
 
-tuple method 
-no 1)
-count()
+# tuple method 
+# no 1)
+# count()
 
-so basically isse hum tuple me koi given chiz kitani baar aati hai wo dekh sakte hai .
-for an example:-
+# so basically isse hum tuple me koi given chiz kitani baar aati hai wo dekh sakte hai .
+# for an example:-
 tuple1 = (0,1,2,3,2,3,1,3,2,3)
 a = tuple1.count(3)
 print('count of 3 in tuple1 is:',a) 
 
 
-so output is :
-count of 3 in tuple1 is: 4
+# so output is :
+# count of 3 in tuple1 is: 4
 
 
-no 2)
-index()
+# no 2)
+# index()
 
 tuple1 = (0,1,2,3,2,3,1,3,2,3)
 res = tuple1.index(3)
 print('index of 3 in tuple1 is:',res) 
 
-so output is:
+# so output is:
 
-index of 3 in tuple1 is: 3
+# index of 3 in tuple1 is: 3
 
 tuple1 = (0,1,2,3,2,3,1,3,2,3)
 res = tuple1.index(3,4,8)
 print('index of 3 in tuple1 is:',res) 
+print("kuch bhi yaha likhenge wo same print hoga output me")
+  [
+    "Which language was used to create fb?", "Python", "French", "JavaScript",
+    "Php", "None", 4
+  ],
+  [
+    "Which language was used to create fb?", "Python", "French", "JavaScript",
+    "Php", "None", 4
+  ],
+]
+
+levels = [1000, 2000, 3000, 5000, 10000, 20000, 40000, 80000, 160000, 320000]
+money = 0
+for i in range(0, len(questions)):
+  
+  question = questions[i]
+  print(f"\n\nQuestion for Rs. {levels[i]}")
+  print(f"a. {question[1]}          b. {question[2]} ")
+  print(f"c. {question[3]}          d. {question[4]} ")
+  reply = int(input("Enter your answer (1-4) or  0 to quit:\n" ))
+  if (reply == 0):
+    money = levels[i-1]
+    break
+  if(reply == question[-1]):
+    print(f"Correct answer, you have won Rs. {levels[i]}")
+    if(i == 4):
+      money = 10000
+    elif(i == 9):
+      money = 320000
+    elif(i == 14):
+      money = 10000000
+  else:
+    print("Wrong answer!")
+    break 
+
+print(f"Your take home money is {money}")
 
 
-so output is
-index of 3 in tuple1 is: 5
+short hand if else statement****
 
-#first occurence hoga wo dikhayega
+a=330
+b=3303
+print("A") if a>b else print("=")
+if a==b else print("B")
 
-****f-strings
+print(9) if a>b else ""
+
+
+***pending***
+
+
+# so output is
+# index of 3 in tuple1 is: 5
+
+# #first occurence hoga wo dikhayega
+
+# ****f-strings
 
 
 letter="hey my name is {} and i am from  {}"
@@ -1700,12 +1757,12 @@ name="harry"
 
 print(letter.format(name,country))
 
-so output Is
+# so output Is
 
-hey my name is harry and i am from india
+# hey my name is harry and i am from india
 
 
-so hum ese likhte so
+# so hum ese likhte so
 
 
 letter="hey my name is {} and i am from  {}"
@@ -1713,74 +1770,74 @@ country="india"
 name="harry"
 print(letter.format(country,name))
 
-so output is
-hey my name is india and i am from harry 
+# so output is
+# hey my name is india and i am from harry 
 
-so hum f string ki help se hum string me variable daal sakte hai 
+# so hum f string ki help se hum string me variable daal sakte hai 
 
-for an example:
+# for an example:
 
 letter="hey my name is {1} and i am from  {0}"
 country="india"
 name="harry"
 print(f"hey my name is {name} and i am from  {country}")
 
-so output is:
-hey my name is harry and i am from india
+# so output is:
+# hey my name is harry and i am from india
 
-so hum isme point ke baad 2 digit chahiye so hum ese use kar sakte hai
+# so hum isme point ke baad 2 digit chahiye so hum ese use kar sakte hai
 
 txt = "for only {price:.2f}dollars!"
 print(txt.format(price = 49.09999))
 
 
-so output is
+# so output is
 
-for only 49.10 dollars!
+# for only 49.10 dollars!
 
-so .2f lagane se hum do decimal tak print kar sakte hai
+# so .2f lagane se hum do decimal tak print kar sakte hai
 
-so abhi humne complicated type kiya hum ise f string me 
-ese likh sakte hai
+# so abhi humne complicated type kiya hum ise f string me 
+# ese likh sakte hai
 
 
 price = 49.09999
 txt = f"for only {price:.2f}dollars!"
 print(txt)
 
-so ab output aayega
+# so ab output aayega
 
-for only 49.10 dollars!
+# for only 49.10 dollars!
 
-hum calcualtion as string bhi kar sakte hai with help of f string
+# hum calcualtion as string bhi kar sakte hai with help of f string
 
 print(f"{2*30}")
 
-so output is 
-60
+# so output is 
+# 60
  
 
-and hum type dekh sakte hai 
+# and hum type dekh sakte hai 
 
 print(type(f"{2*30}"))
 
 
-so output is
+# so output is
 
-<class 'str'>
+# <class 'str'>
 
 
-so hum variable ko ese print kar sakte hai
-so hum variable ko print karane ke liye hum double curly brackets use karenge  
+# so hum variable ko ese print kar sakte hai
+# so hum variable ko print karane ke liye hum double curly brackets use karenge  
 
 print(f"hey my name is {{name}} and i am from {{country}}")
 
 
-so output is
-hey my name is {name} and i am from {country}
+# so output is
+# hey my name is {name} and i am from {country}
 
-****doc  string
-doc string is present at just below the function line
+# ****doc  string
+# doc string is present at just below the function line
 
 def square(n):
     '''Takes in a number n, returns the square of n'''
@@ -1788,10 +1845,10 @@ def square(n):
 square(5)
 
 
-so output is 
-25
+# so output is 
+# 25
 
-doc string ko print karne ke liye hum command denge
+# doc string ko print karne ke liye hum command denge
 
 def square(n):
     '''Takes in a number n, returns the square of n'''
@@ -1800,48 +1857,49 @@ square(5)
 
 print(square.__doc__)
 
-so output is
-25
-Takes in a number n, returns the square of n
+# so output is
+# 25
+# Takes in a number n, returns the square of n
 
 
 
-doc string hamesha funcion ke just niche aayega
+# doc string hamesha funcion ke just niche aayega
 
-comment change karne se program change nai hota but doc string change karne se program change ho sakta hai
+# comment change karne se program change nai hota but doc string change karne se program change ho sakta hai
 
-***zen of python****
-so hum 
+# ***zen of python****
+# so hum 
 import this 
-likhte hai so output ye aata hai
-The Zen of Python, by Tim Peters
+# likhte hai so output ye aata hai
+# output is 
+# The Zen of Python, by Tim Peters
 
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
+# Beautiful is better than ugly.
+# Explicit is better than implicit.
+# Simple is better than complex.
+# Complex is better than complicated.
+# Flat is better than nested.
+# Sparse is better than dense.
+# Readability counts.
+# Special cases aren't special enough to break the rules.
+# Although practicality beats purity.
+# Errors should never pass silently.
+# Unless explicitly silenced.
+# In the face of ambiguity, refuse the temptation to guess.
+# There should be one-- and preferably only one --obvious way to do it.
+# Although that way may not be obvious at first unless you're Dutch.
+# Now is better than never.
+# Although never is often better than *right* now.
+# If the implementation is hard to explain, it's a bad idea.
+# If the implementation is easy to explain, it may be a good idea.
+# Namespaces are one honking great idea -- let's do more of those!
 
 
-******recursion******
-in python, we know that a funcion can call other functions. it is even possible for the function to call itself. these types of construct are termed as recursive functions.
+# ******recursion******
+# in python, we know that a funcion can call other functions. it is even possible for the function to call itself. these types of construct are termed as recursive functions.
 
-factorial 0 is 1
-for an example:
+# factorial 0 is 1
+# for an example:
 
 def factorial(n):
  if(n==0 or n==1):
@@ -1854,50 +1912,50 @@ print(factorial(3))
 print(factorial(4))
 print(factorial(5))
 
-so output is
-6
-24
-120
+# so output is
+# 6
+# 24
+# 120
 
-fibonacci sequence is completed
+# fibonacci sequence is completed
 
-*****sets in python*****
+# *****sets in python*****
 
 
 s={2,4,2,6}
 print(s)
 
-so output is 
-{2,4,6}
+# so output is 
+# {2,4,6}
 
-set me ek chiz or number repeat nai hota
+# set me ek chiz or number repeat nai hota
 
-set culry bracket me band hoge 
-set is unchangable 
-set do not contain duplicate item 
+# set culry bracket me band hoge 
+# set is unchangable 
+# set do not contain duplicate item 
 
-just like list sets me bhi multiple data type aa skate hai 
+# just like list sets me bhi multiple data type aa skate hai 
 
-for an example:
+# for an example:
 
 info ={"carla",19,False,5.9,19}
 print(info)
 
-sets me order ki koi gerrunty nai hai 
-output is 
-{False, 19, 5.9, 'carla'}
+# sets me order ki koi gerrunty nai hai 
+# output is 
+# {False, 19, 5.9, 'carla'}
 
-so to make empty set
-we do like this
+# so to make empty set
+# we do like this
 
 
 n=set()
 print(type(n))
 
-so now ouput is 
-<class'set'>
+# so now ouput is 
+# <class'set'>
 
-how to access set items so now we do this to access are set item 
+# how to access set items so now we do this to access are set item 
 
 info ={"carla",19,False,5.9,19}
 print(info)
@@ -1905,34 +1963,34 @@ for item in info:
   print(item)
 
 
-so output is 
-{False, 19, 5.9, 'carla'}
-False
-19
-5.9
-carla
+# so output is 
+# {False, 19, 5.9, 'carla'}
+# False
+# 19
+# 5.9
+# carla
 
-iska order kuchh bhi ho sakta hai 
+# iska order kuchh bhi ho sakta hai 
 
-*****set method***
+# *****set method***
 
-1)union() and update()
+# 1)union() and update()
 
 
-union method ki help se hum do sets ko merge kar skate hai
-for an example:
+# union method ki help se hum do sets ko merge kar skate hai
+# for an example:
 
 s1 = {1,2,5,6}
 s2 = {3,6,7}
 
 print(s1.union(s2))
 
-so output is 
-{1,2,3,5,6,7}
+# so output is 
+# {1,2,3,5,6,7}
 
-and hum update method ki help se set ko update kar sakte hai 
+# and hum update method ki help se set ko update kar sakte hai 
 
-for an example
+# for an example
 
 s1 = {1,2,5,6}
 s2 = {3,6,7}
@@ -1941,9 +1999,9 @@ s1.update(s2)
 print(s1,s2)
 
 
-so now output is 
-{1,2,3,5,6,7}
-{1,2,3,5,6,7} {3,6,7}
+# so now output is 
+# {1,2,3,5,6,7}
+# {1,2,3,5,6,7} {3,6,7}
 
 
 cities = {"tokyo","madrid","berlin","delhi"}
@@ -1952,26 +2010,26 @@ cities3 = cities.union(cities2)
 print(cities3)
 
 
-so output Is
-{'madrid', 'delhi', 'tokyo', 'kabul', 'berlin', 'seoul'}
+# so output Is
+# {'madrid', 'delhi', 'tokyo', 'kabul', 'berlin', 'seoul'}
 
-2)intersection and intersection_update 
+# 2)intersection and intersection_update 
 
 
-so basically intersection me ash hota hai ki koi bhi value dono sets me hoto
-wo print hogi sirf aur sirf
+# so basically intersection me ash hota hai ki koi bhi value dono sets me hoto
+# wo print hogi sirf aur sirf
 cities = {"tokyo","madrid","berlin","delhi"}
 cities2 = {"tokyo","seoul","kabul","madrid"}
 cities3 = cities.intersection(cities2)
 print(cities3)
 
 
-so output Is
-{'tokyo','madrid'}
+# so output Is
+# {'tokyo','madrid'}
 
 
-so with the help of intersection_update hum log sets ko update kar pate hai so jo dono sets me 
-common value hogi wo value sirf print hogi and baki ki value remove ho jaayegi
+# so with the help of intersection_update hum log sets ko update kar pate hai so jo dono sets me 
+# common value hogi wo value sirf print hogi and baki ki value remove ho jaayegi
 
 
 cities = {"tokyo","madrid","berlin","delhi"}
@@ -1980,16 +2038,16 @@ cities.intersection_update(cities2)
 print(cities)
 
 
-so output Is
-{'tokyo','madrid'}
+# so output Is
+# {'tokyo','madrid'}
 
 
-so now lets move forwad 
-3) symmetric_differnce and symmetric_differnce_update
+# so now lets move forwad 
+# 3) symmetric_differnce and symmetric_differnce_update
 
-so with the helpof symmetric_differnce hum log jo non common thing hoti ahi usko hum print kara sakte  hai 
+# so with the helpof symmetric_differnce hum log jo non common thing hoti ahi usko hum print kara sakte  hai 
  
- for an example:
+#  for an example:
 
 
 cities = {"tokyo","madrid","berlin","delhi"}
@@ -1997,46 +2055,46 @@ cities2 = {"tokyo","seoul","kabul","madrid"}
 cities3=cities.symmetric_differnce(cities2)
 print(cities3)
 
-so ouput is
-{'berlin','kabul','seoul','delhi'}
+# so ouput is
+# {'berlin','kabul','seoul','delhi'}
 
 cities = {"tokyo","madrid","berlin","delhi"}
 cities2 = {"tokyo","seoul","kabul","madrid"}
 cities.symmetric_differnce_update(cities2)
 print(cities)
 
-so output is 
-{'berlin', 'seoul', 'kabul', 'delhi'}
+# so output is 
+# {'berlin', 'seoul', 'kabul', 'delhi'}
 
-3)isdisjoint():
+# 3)isdisjoint():
 
-disjoint ki help se hum ye check kar sakte hai ki dono sets completly match nai khate 
-match khaye to False and match na khaye to True
+# disjoint ki help se hum ye check kar sakte hai ki dono sets completly match nai khate 
+# match khaye to False and match na khaye to True
 cities = {"tokyo","madrid","berlin","delhi"}
 cities2 = {"tokyo","seoul","kabul","madrid"}
 print(cities.isdisjoint(cities2))
 
-so output is 
-False
+# so output is 
+# False
 
 
-4) issuperset
-so isse hum ye dekh sakte hai ki koi ek set me jo value hai wo dusare set me present hai 
+# 4) issuperset
+# so isse hum ye dekh sakte hai ki koi ek set me jo value hai wo dusare set me present hai 
 
-for an example:
+# for an example:
 cities = {"tokyo","madrid","berlin","delhi"}
 cities2 = {"seoul","madrid"}
 print(cities.issuperset(cities2))
 cities3 = {"seoul","madrid","kabul"}
 print(cities.issuperset(cities3))
 
-so output is 
-False
-False
+# so output is 
+# False
+# False
 
-5) issubset
+# 5) issubset
 
-so basically it is opposite to issuperset.
+# so basically it is opposite to issuperset.
 
 cities = {"tokyo","madrid","berlin","delhi"}
 cities2 = {"seoul","madrid"}
@@ -2045,53 +2103,53 @@ cities3 = {"seoul","madrid","kabul"}
 print(cities.issuperset(cities3))
 
 
-6)add()
+# 6)add()
 
 cities = {"tokyo","madrid","berlin","delhi"}
 cities.add("helsiniki")
 print(cities)
 
-so output is 
-{'tokyo','madrid','berlin','helsiniki','delhi'}
+# so output is 
+# {'tokyo','madrid','berlin','helsiniki','delhi'}
 
-7)remove()
+# 7)remove()
 
 cities ={"tokyo","madrid","berlin","delhi"}
 cities.remove("tokyo")
 print(cities)
 
-so output Is
-{'delhi', 'madrid', 'berlin'}
+# so output Is
+# {'delhi', 'madrid', 'berlin'}
 
-8)pop()
+# 8)pop()
 
 cities = {"tokyo","madrid","berlin","delhi"}
 item = cities.pop()
 print(cities)
 print(item)
 
-so output is 
-{'tokyo', 'berlin', 'delhi'}madrid
+# so output is 
+# {'tokyo', 'berlin', 'delhi'}madrid
 
 
-9) del
-so hum iski help se set ko delete kar skate hai
+# 9) del
+# so hum iski help se set ko delete kar skate hai
 
 cities = {"tokyo","madrid","berlin","delhi"}
 del cities
 print(cities)
 
-so now cities is not print and an error occured
+# so now cities is not print and an error occured
 
-10) clear
-so with the help of this we can clear our sets
-or empty set formed
+# 10) clear
+# so with the help of this we can clear our sets
+# or empty set formed
 
 cities = {"tokyo","madrid","berlin","delhi"}
 cities.clear
 print(cities)
 
-11) check if item exists
+# 11) check if item exists
 
 
 info = {"carla",19,False,5.9}
@@ -2101,50 +2159,50 @@ else:
   print("carla is absent")
 
 
-so output is 
-carla is present 
+# so output is 
+# carla is present 
 
 
-*****dictionary*****
+# *****dictionary*****
 
 dic = {
-  "harry" = "human being"
-  "spoon" = "object"
+  "harry": "human being",
+  "spoon": "object"
 }
 
 print(dic["harry"])
 
-so output is 
+# so output is 
 
-human being
+# human being
 
-or 
+# or 
 
 dic = {
-  344 = "harry"
-  56 = "shubham"
-  678 = "zakir"
-  567 = "neha"
+  344 : "harry",
+  56 : "shubham",
+  678 : "zakir",
+  567 : "neha"
 }
 
 print(dic[567])
 
-so output is 
-neha
+# so output is 
+# neha
 
 info = {'name':'karan', 'age':19,'eligible':'True'}
 print(info)
 print(info['name'])
 print(info.get('eligible'))
 
-so output is 
-('name':'karan', 'age':19,'eligible':'True')
-karan
-True
+# so output is 
+# ('name':'karan', 'age':19,'eligible':'True')
+# karan
+# True
 
 
-so hum info.get type se karate hai so error nahi aate hai
-for an example
+# so hum info.get type se karate hai so error nahi aate hai
+# for an example
 
 info = {'name':'karan', 'age':19,'eligible':'True'}
 print(info)
@@ -2153,15 +2211,15 @@ print(info.get('eligible'))
 print(info.get('name'))
 print(info.get('name2'))
 
-so output Is
+# so output Is
 
-('name':'karan', 'age':19,'eligible':'True')
-karan
-True
-karan
-None
+# ('name':'karan', 'age':19,'eligible':'True')
+# karan
+# True
+# karan
+# None
 
-so hum ese karate to error aati 
+# so hum ese karate to error aati 
 
 info = {'name':'karan', 'age':19,'eligible':'True'}
 print(info)
@@ -2170,27 +2228,27 @@ print(info.get('eligible'))
 print(info.get('name'))
 print(info.get('name2'))
 
-so output is error
+# so output is error
 
-{'name': 'karan', 'age': 19, 'eligible': 'True'}
-Traceback (most recent call last):
-  File "c:\Users\NAISHAL NADIYA\OneDrive\Desktop\python practice\dictionary in python.py", line 3, in <module>
-    print(info['name2'])
-          ~~~~^^^^^^^^^
-KeyError: 'name2'
+# {'name': 'karan', 'age': 19, 'eligible': 'True'}
+# Traceback (most recent call last):
+#   File "c:\Users\NAISHAL NADIYA\OneDrive\Desktop\python practice\dictionary in python.py", line 3, in <module>
+#     print(info['name2'])
+#           ~~~~^^^^^^^^^
+# KeyError: 'name2'
 
-so sari key ko access karne ke liye hum use karenge ye 
+# so sari key ko access karne ke liye hum use karenge ye 
 
 info = {'name':'karan', 'age':19,'eligible':'True'}
 print(info)
 print(info.keys())
 
-so output is 
-{'name': 'karan', 'age': 19, 'eligible': 'True'}
-dict_keys(['name', 'age', 'eligible'])
+# so output is 
+# {'name': 'karan', 'age': 19, 'eligible': 'True'}
+# dict_keys(['name', 'age', 'eligible'])
 
 
-hum for ka bhi use kar sakte hai 
+# hum for ka bhi use kar sakte hai 
 
 info = {'name':'karan', 'age':19,'eligible':'True'}
 print(info)
@@ -2198,14 +2256,14 @@ print(info.keys())
 for key in info.keys():
   print(info[key])
   
-output is 
-{'name': 'karan', 'age': 19, 'eligible': 'True'}
-dict_keys(['name', 'age', 'eligible'])
-karan
-19
-True
+# output is 
+# {'name': 'karan', 'age': 19, 'eligible': 'True'}
+# dict_keys(['name', 'age', 'eligible'])
+# karan
+# 19
+# True
 
-also we use value 
+# also we use value 
 
 info = {'name':'karan', 'age':19,'eligible':'True'}
 print(info)
@@ -2214,15 +2272,15 @@ print(info.values())
 for key in info.keys():
   print(info[key])
 
-so output is 
-{'name': 'karan', 'age': 19, 'eligible': 'True'}
-dict_keys(['name', 'age', 'eligible'])
-dict_values(['karan', 19, 'True'])
-karan
-19
-True
+# so output is 
+# {'name': 'karan', 'age': 19, 'eligible': 'True'}
+# dict_keys(['name', 'age', 'eligible'])
+# dict_values(['karan', 19, 'True'])
+# karan
+# 19
+# True
 
-f string use :
+# f string use :
 
 info = {'name':'karan', 'age':19,'eligible':'True'}
 print(info)
@@ -2231,16 +2289,16 @@ print(info.values())
 for key in info.keys():
   print(f"the value corresponding to the key {key} is {info[key]}")
 
-so output is
+# so output is
 
-{'name': 'karan', 'age': 19, 'eligible': 'True'}
-dict_keys(['name', 'age', 'eligible'])
-dict_values(['karan', 19, 'True'])
-the value corresponding to the key name is karan
-the value corresponding to the key age is 19
-the value corresponding to the key eligible is True
+# {'name': 'karan', 'age': 19, 'eligible': 'True'}
+# dict_keys(['name', 'age', 'eligible'])
+# dict_values(['karan', 19, 'True'])
+# the value corresponding to the key name is karan
+# the value corresponding to the key age is 19
+# the value corresponding to the key eligible is True
 
-also we use item
+# also we use item
 
 info = {'name':'karan', 'age':19,'eligible':'True'}
 print(info.items())
@@ -2248,16 +2306,16 @@ for key, value in info.items():
   print(f"the value corresponding to the key {key} is {value}")
 
 
-so output is 
+# so output is 
 
-dict_items([('name', 'karan'), ('age', 19), ('eligible', 'True')])
-the value corresponding to the key name is karan
-the value corresponding to the key age is 19
-the value corresponding to the key eligible is True
+# dict_items([('name', 'karan'), ('age', 19), ('eligible', 'True')])
+# the value corresponding to the key name is karan
+# the value corresponding to the key age is 19
+# the value corresponding to the key eligible is True
 
-*****dictionary method****
+# *****dictionary method****
 
-1) update() 
+# 1) update() 
 
 ep1={122:45,123:89,567:69,670:69}
 ep2={222:67,566:90}
@@ -2265,68 +2323,68 @@ ep2={222:67,566:90}
 ep1.update(ep2)
 print(ep1)
 
-so output is 
-{122:45,123:89,567:69,670:69,222:67,566:90}
+# so output is 
+# {122:45,123:89,567:69,670:69,222:67,566:90}
 
-dictionary follows order but sets do not follow order
+# dictionary follows order but sets do not follow order
 
 
-2)clear()
+# 2)clear()
 
-hum clear method ka use tab karte hai jab hum empty dictionary print karani ho 
-ya fir poori dictionary khali karni ho without deleting
+# hum clear method ka use tab karte hai jab hum empty dictionary print karani ho 
+# ya fir poori dictionary khali karni ho without deleting
 
-for an example:
+# for an example:
 
 ep1={122:45,123:89,567:69,670:69}
 ep2={222:67,566:90}
 ep1.clear()
 print(ep1)
 
-so output is 
-{}
+# so output is 
+# {}
 
-or hum empty dictionary kuchh ese bhi bana sakte hai 
+# or hum empty dictionary kuchh ese bhi bana sakte hai 
 
 empt={}
 print(empt)
 
-so out put Is
-{}
+# so out put Is
+# {}
 
-3)pop()
+# 3)pop()
 
-the pop() method removes the key-value pair whose key is passed as a parameter.
+# the pop() method removes the key-value pair whose key is passed as a parameter.
 
-for an example:
+# for an example:
 
 ep1={122:45,123:89,567:69,670:69}
 ep2={222:67,566:90}
 ep1.pop(122)
 print(ep1)
 
-so output is 
+# so output is 
 
-{123:89,567:69,670:69}
+# {123:89,567:69,670:69}
 
 
-4)popitem()
+# 4)popitem()
 
-so ye basically last wali item pair ko remove kar deta hai 
+# so ye basically last wali item pair ko remove kar deta hai 
 
 ep1={122:45,123:89,567:69,670:69}
 ep2={222:67,566:90}
 ep1.popitem()
 print(ep1)
 
-so output is 
-{122:45,123:89,567:69,}
+# so output is 
+# {122:45,123:89,567:69,}
 
-5)del:
+# 5)del:
 
-we can also use the del keyword to remove a dictionary item.
+# we can also use the del keyword to remove a dictionary item.
 
-so hum del ki help se dictionaryko delete kar sakte hai 
+# so hum del ki help se dictionaryko delete kar sakte hai 
 
 ep1={122:45,123:89,567:69,670:69}
 ep2={222:67,566:90}
@@ -2334,9 +2392,9 @@ ep1.popitem()
 del ep1
 print(ep1)
 
-so error occur becausewe delete ep 1 and then print ep 1
+# so error occur becausewe delete ep 1 and then print ep 1
 
-if key is not provided , then the del keyword will delete the  dictionary entirely.
+# if key is not provided , then the del keyword will delete the  dictionary entirely.
 
 ep1={122:45,123:89,567:69,670:69}
 ep2={222:67,566:90}
@@ -2344,11 +2402,11 @@ ep1.popitem()
 del ep1[122]
 print(ep1)
 
-so output is 
-{123:89,567:69,670:69}
+# so output is 
+# {123:89,567:69,670:69}
 
 
-***for loop with else**
+# ***for loop with else**
 
 for i in []:
   print(i)
@@ -2356,8 +2414,8 @@ else:
   print("sorry no i")
 
 
-so output is
-sorry no i
+# so output is
+# sorry no i
 
 for i in range (6):
   print(i)
@@ -2369,34 +2427,34 @@ else:
 
 
 
-in this case else is not execute because if is successfuly excecuted
+# in this case else is not execute because if is successfuly excecuted
 
-so ouput is
-0
-1
-2
-3
-4
+# so ouput is
+# 0
+# 1
+# 2
+# 3
+# 4
 
 i=0
 while i<7:
  print(i)
  i = i+1
- if i == 4
+ if i == 4:
   break
 
 else:
  print("sorry no i")
 
 
-so output is same as for loop
-0
-1
-2
-3
-4
+# so output is same as for loop
+# 0
+# 1
+# 2
+# 3
+# 4
 
-if hum log ise break na kare to else print hoga 
+# if hum log ise break na kare to else print hoga 
 
 i=0
 while i<7:
@@ -2406,14 +2464,14 @@ while i<7:
 else:
  print("sorry no i")
 
-so now  output is 
-0
-1
-2
-3
-4
-5
-6
+# so now  output is 
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
 
 for x in range(5):
   print("iteration no{} in for loop".format(x+1))
@@ -2423,19 +2481,19 @@ else:
 
 print("Out of loop")
 
-so output Is
+# so output Is
 
-iteration no 1 in for loop 
-iteration no 2 in for loop
-iteration no 3 in for loop
-iteration no 4 in for loop
-iteration no 5 in for loop
-else block in loop 
-Out of loop 
+# iteration no 1 in for loop 
+# iteration no 2 in for loop
+# iteration no 3 in for loop
+# iteration no 4 in for loop
+# iteration no 5 in for loop
+# else block in loop 
+# Out of loop 
 
-*****exception handling in python*****
+# *****exception handling in python*****
 
-we can build a table 
+# we can build a table 
 
 a = input("Enter the number: ")
 print(f"Multiplication table of {a} is: ")
@@ -2444,25 +2502,25 @@ print(f"Multiplication table of {a} is: ")
 for i in range(1,11):
      print(f"{int(a)} X {i} = {int(a)*i}")
 
-so output is 
-Enter the number: 1
-Multiplication table of 1 is: 
-1 X 1 = 1
-1 X 2 = 2
-1 X 3 = 3
-1 X 4 = 4
-1 X 5 = 5
-1 X 6 = 6
-1 X 7 = 7
-1 X 8 = 8
-1 X 9 = 9
-1 X 10 = 10
+# so output is 
+# Enter the number: 1
+# Multiplication table of 1 is: 
+# 1 X 1 = 1
+# 1 X 2 = 2
+# 1 X 3 = 3
+# 1 X 4 = 4
+# 1 X 5 = 5
+# 1 X 6 = 6
+# 1 X 7 = 7
+# 1 X 8 = 8
+# 1 X 9 = 9
+# 1 X 10 = 10
 
 
-so now we enter the input like this 
-harry or other thing except integer
-so we get a error so now as developer 
-we fix this error like this
+# so now we enter the input like this 
+# harry or other thing except integer
+# so we get a error so now as developer 
+# we fix this error like this
 
 try:
     a = input("Enter the number: ")
@@ -2477,7 +2535,7 @@ except ValueError:
 
 
 
-one more example
+# one more example
 
 try:
     a = input("Enter the number: ")
@@ -2491,10 +2549,10 @@ except Exception as e:
      print(e)
 
 
-this handled all exception
+# this handled all exception
 
 
-handling multiple exception
+# handling multiple exception
 try:
      num=int(input("Enter an integer: "))
      a = [6,3]
@@ -2505,7 +2563,7 @@ except IndexError:
      print("Index Error")
 
 
-***finally clause****
+# ***finally clause****
 
 try:
     l=[1,5,6,7]
@@ -2518,11 +2576,11 @@ finally:
     print("I am always executed")
 
 
-so basically error aaye na aaye kuchh bhi ho finally block chalega hi chalega 
-and especially ye function me jyada kaam ata hai
+# so basically error aaye na aaye kuchh bhi ho finally block chalega hi chalega 
+# and especially ye function me jyada kaam ata hai
 
 
-***custom error**
+# ***custom error**
 
 
 a= int(input("Enter any value between 5 and 9"))
@@ -2531,7 +2589,7 @@ if(a<5 or a>9):
   raise ValueError("value should be between 5 and 9")
 
 
-*****build kbc**********
+# *****build kbc**********
 
 questions = [
   [
@@ -2659,14 +2717,14 @@ for i in range(0, len(questions)):
 print(f"Your take home money is {money}")
 
 
-short hand if else statement****
+# short hand if else statement****
 
 a=330
 b=3303
 print("A") if a>b else print("=")
-if a==b else print("B")
+# if a==b else print("B")
 
-print(9) if a>b else ""
+# print(9) if a>b else ""
 
 
-***pending***
+# ***pending***
