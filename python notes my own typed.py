@@ -58,7 +58,7 @@ print("hey",6,7,end="kuchh bhi")
 # True False is :- bool mean boolean data
 
 # list is a list of item of different different datatype
-# tupel is almost same as list but difference is , it is not changeable after created or fixed or immutable
+# tuple is almost same as list but difference is , it is not changeable after created or fixed or immutable
 
 
 # mapped data :- dic
